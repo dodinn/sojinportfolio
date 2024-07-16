@@ -1,0 +1,642 @@
+/* ////////////////////////////////////////////// */
+
+/* 일곱번째 섹션 */
+.seven {
+  background-color: #565656;
+  height: 880vh;
+  overflow: visible;
+  position: relative;
+}
+
+.frameWrap {
+  display: flex;
+  position: relative;
+}
+
+.responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  padding: 150px 0;
+}
+
+.responsive img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/*  */
+.responsive .mobile {
+  position: absolute;
+  width: 120px;
+  height: 240px;
+  bottom: 0;
+  right: -54px;
+  z-index: 2;
+}
+
+.responsive .tablet {
+  position: absolute;
+  width: 230px;
+  height: 349px;
+  bottom: 0;
+  left: -110px;
+  z-index: 2;
+}
+
+.responsive .desktop {
+  position: relative;
+  width: 600px;
+  height: 519px;
+}
+
+/*  */
+
+.responsive .frame img {
+  z-index: 1;
+}
+
+.responsive .hoverbottom:hover {
+  background-position: bottom;
+}
+
+
+.title_text {
+  width: 20%;
+}
+
+.title_text h1 {
+  position: relative;
+  font-size: 3rem;
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #EEEEEE;
+  border-left: 15px solid #1D1E26;
+}
+
+
+.title_text h3 {
+  font-weight: 800;
+}
+
+.title_text .h1p {
+  padding: 20px 0;
+}
+
+.title_text .border {
+  border-bottom: 1px solid #252525;
+}
+
+.title_text .h1pp {
+  padding-bottom: 50px;
+}
+
+.title_text a {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 0px;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+/* /플립스크롤/ */
+.title_text .FlipP {
+  letter-spacing: 5.5px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .FlipScroll {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/플립스크롤.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 2s;
+}
+
+.sideText h3{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 50px 0;
+  z-index: 10;
+  color: #9b9b9b
+}
+
+/* /마그마/ */
+.title_text .magmaP {
+  letter-spacing: 0.3px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .MAGMA {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/마그마.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 2s;
+}
+
+/* /파티/ */
+.title_text .partyP {
+  letter-spacing: 12px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .party {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/파티.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 2s;
+}
+
+.face .spin{
+  position: absolute;
+  top: 80px;
+  right: 230px;
+  width: 250px;
+  height: 250px;
+  animation: textAni 10s linear infinite ;
+}
+
+@keyframes textAni{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+/* /스시/ */
+.title_text .SushiP {
+  letter-spacing: 3.5px;
+  padding: 3px 0 20px 3px;
+}
+.responsive{
+  padding-bottom: 100px;
+
+}
+
+.responsive .sushiD {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/스시.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+.responsive .sushiM {
+  width: 92%;
+  height: 90%;
+  margin: 13px 0px 0px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/스시-폰.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+.responsive .sushiT {
+  width: 91%;
+  height: 86%;
+  margin: 26px 0px 0px 11px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/스시-태블릿.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+  .cover{
+      display: flex;
+      width: 75%;
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+      padding-bottom: 100px;
+  }
+  
+  .cover .first-parallel{
+      display: flex;
+      gap: 130px;
+      
+  }
+
+.left_carousel{
+    background-color: #F5E5E3;
+    background: linear-gradient(90deg, #F5E5E3, transparent);
+    width: 20%;
+    height: 100% ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.right_carousel{
+    width: 20%;
+    height: 100% ;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 50;
+    background: linear-gradient(270deg, #F5E5E3, transparent);
+}
+
+
+/* /뮤자인/ */
+.title_text .musignP {
+  letter-spacing: 4.5px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .musignD {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/뮤자인.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+.responsive .musignM {
+  width: 92%;
+  height: 90%;
+  margin: 13px 0px 0px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/뮤자인-폰.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+.responsive .musignT {
+  width: 91%;
+  height: 86%;
+  margin: 26px 0px 0px 11px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/뮤자인-태블릿.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.8s;
+}
+
+/* /패러랙스/ */
+.title_text .ParallaxP {
+  letter-spacing: 7px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .Parallax {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/패러랙스.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 1s;
+  
+}
+
+.paraText h2{
+  width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+  font-size: 10rem;
+  padding: 50px 0;
+  color: #9a5d9c;
+}
+
+/* /3d 사이버픽션/ */
+.title_text .CyberP {
+  letter-spacing: 13.5px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .Cyber {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/사이버픽션.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 1s;
+}
+
+/* /보야랩스/ */
+.title_text .voyalabsP {
+  letter-spacing: 29px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .voyalabs {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/보야랩스.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 1s;
+}
+
+.anime{
+  width: 21%;
+  position: absolute;
+  bottom: -20px;
+  right: 70px;
+  transform: rotate(15deg)
+}
+
+
+/* /하나카드/ */
+.title_text .hanacardP {
+  letter-spacing: 30px;
+  padding: 3px 0 20px 3px;
+}
+
+.responsive .hanacard {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/하나카드.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  transition: 0.3s;
+}
+
+/* 리액트투두 */
+/* 
+
+.responsive .todo {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/todolist.jpg) no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+} */
+
+/* 리액트자라 */
+/* 
+
+.responsive .ZARA {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/ZARA.jpg) no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+} */
+
+/* PHP */
+/* 
+
+.responsive .PHP {
+  width: 94%;
+  height: 65%;
+  margin: 18px 0px 0px 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./img/home/PHP.jpg) no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+} */
+
+/* .reshana {
+  margin-bottom: 50px;
+} */
+
+.title_text {
+  margin-left: 150px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.title_text.active {
+  margin: 0;
+  opacity: 1;
+}
+
+
+/* ////////////////////////////////////////////// */
+.port {
+  position: relative;
+}
+
+.port_wrap {
+  margin-top: 20rem;
+}
+
+.port .porttxt {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #EEEEEE;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.port span {
+  font-size: 1.1rem;
+}
+
+.port .black {
+  color: #2e2e2e;
+}
+
+.port .stroke {
+  text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+}
+
+#secSeven .port_wrap .port_title {
+  top: 100px;
+  position: fixed;
+  left: 0;
+  font-size: 12rem;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 35px 0 0 0px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#secSeven .port_wrap .port_title a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#secSeven .port_wrap .port_desc {
+  display: flex;
+  width: 700%;
+  gap: 20px;
+  margin-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+#secSeven .port_wrap .port_desc .port {
+  width: 600px;
+}
+
+#secSeven .port_wrap .port_desc .port .img {
+  width: 100%;
+  height: 600px;
+  background-color: #000;
+  border-radius: 10px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+.port_wrap .port_desc .port1 .img {
+  background-image: url(./img/ex/\(1\).jpg);
+}
+
+.port_wrap .port_desc .port2 .img {
+  background-image: url(./img/ex/\(12\).jpg);
+
+}
+
+.port_wrap .port_desc .port3 .img {
+  background-image: url(./img/ex/\(19\).jpg);
+}
+
+.port_wrap .port_desc .port4 .img {
+  background-image: url(./img/ex/\(3\).jpg);
+}
+
+.port_wrap .port_desc .port5 .img {
+  background-image: url(./img/ex/\(10\).jpg);
+}
+
+.port_wrap .port_desc .port6 .img {
+  background-image: url(./img/ex/\(8\).jpg);
+}
+
+.port_wrap .port_desc .port7 .img {
+  background-image: url(./img/ex/\(16\).jpg);
+}
+
+.port_wrap .port_desc .port8 .img {
+  background-image: url(./img/ex/\(21\).jpg);
+}
+
+.port_wrap .port_desc .port9 .img {
+  background-image: url(./img/ex/\(25\).jpg);
+}
+
+.port_wrap .port_desc .port10 .img {
+  background-image: url(./img/ex/\(26\).jpg);
+}
+
+.port_wrap .port_desc .port11 .img {
+  background-image: url(./img/ex/\(14\).jpg);
+}
+
+.port_wrap .port_desc .port12 .img {
+  background-image: url(./img/ex/\(17\).jpg);
+}
+
+.port_wrap .port_desc .port13 .img {
+  background-image: url(./img/ex/\(23\).jpg);
+}
+
+.port_wrap .port_desc .port14 .img {
+  background-image: url(./img/ex/\(14\).jpg);
+}
+
+.port_wrap .port_desc .port15 .img {
+  background-image: url(./img/ex/\(29\).jpg);
+}
+
+.port_wrap .port_desc .port16 .img {
+  background-image: url(./img/ex/\(31\).jpg);
+}
+
+.port_wrap .port_desc .port17 .img {
+  background-image: url(./img/ex/\(30\).jpg);
+}
+
+.port_wrap .port_desc .port18 .img {
+  background-image: url(./img/ex/\(1\).jpg);
+}
+
+.port_wrap .port_desc .port19 .img {
+  background-image: url(./img/ex/\(1\).jpg);
+}
+
+.port_wrap .port_desc iframe {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.port_wrap .port_desc {
+  padding-left: 200px;
+}
